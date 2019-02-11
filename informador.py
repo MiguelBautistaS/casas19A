@@ -12,7 +12,7 @@ class Informador:
 
 
     def to_json(self):
-        with open('ínformador.json', 'w') as archivo:
+        with open(datetime.datetime.now().strftime('%Y-%m-%d')+'.json', 'w') as archivo:
             json.dump(self.lista, archivo, sort_keys=False, indent=4)
 
     def scrapping(self):
