@@ -2,6 +2,7 @@ from informador import  Informador
 
 informador = Informador()
 informador.scrapping()
+informador.scrapping_renta()
 informador.to_json()
 #Importamos las dos librerias necesarias
 # import  requests
